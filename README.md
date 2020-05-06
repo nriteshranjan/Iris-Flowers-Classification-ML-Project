@@ -17,13 +17,11 @@ The dataset for this project originates from the [UCI Machine Learning Repositor
   - Length of the petals
   - Width of the petals
 
-**Working of the iris_decision_tree_classifier**
-- The program takes data from the `load_iris()` function available in `sklearn` module.
-- The program then creates a decision tree based on the dataset for classification.
-- The user is then asked to enter the four parameters of his sample and prediction about the species of the flower is printed to the user.
+**Accuracy Scores**
+Accuracy obtained = 0.9666666666666667
 
-**Working of the iris_selfmade_KNN**
-- The program takes data from the `load_iris()` function available in `sklearn` module.
-- The program then divides the dataset into training and testing samples in 80:20 ratio randomly using `train_test_learn()` function available in `sklearn` module.
+**Working of the Program**
+- The program uses `pandas` module to import the datset
+- The program then divides the dataset into training and testing samples in 80:20 ratio randomly using `train_test_split()` function available in `sklearn` module.
 - The training sample space is used to train the program and predictions are made on the testing sample space.
 - Accuracy score is then calculated by comparing with the correct results of the training dataset.
